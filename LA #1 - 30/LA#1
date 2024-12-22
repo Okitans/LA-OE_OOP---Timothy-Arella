@@ -1,0 +1,8 @@
+class MobileLegendsChar:
+    hero = "Saber"
+    role = "Assassin"
+    attack = "Melee"
+
+mobaHero = MobileLegendsChar()
+
+print(f"Name Hero: {mobaHero.hero}, Role: {mobaHero.role}, attack Type: {mobaHero1.attack}")
