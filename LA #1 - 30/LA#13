@@ -1,0 +1,17 @@
+class animal():
+    def __init__(self,name,type):
+        self.name = name
+        self.type = type
+
+class fish(animal):
+    def __init__(self,name,type):
+        super().__init__(name,type)
+        self.can_swim = True
+
+    def describeToys(self):
+        print(f"\nThe name of fish is {self.name} type of fish {self.type} can swim {self.can_swim}")
+
+
+zxc = fish("flappyfish","floating fish",)
+zxc.can_swim = True
+zxc.describeToys()
