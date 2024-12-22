@@ -1,0 +1,8 @@
+class MOBACHAR:
+    def __init__(self,name,role,attack):
+        self.name = name
+        self.role = role
+        self.attack = attack
+
+char = MOBACHAR("Lancelot", "Assassin", "Melee")
+print(f"Name: {char.name} \nRole: {char.role} \nBasic Attack: {char.b_attack}")
